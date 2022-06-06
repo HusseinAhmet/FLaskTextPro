@@ -9,6 +9,7 @@ from nltk.stem.porter import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 from nltk.corpus import stopwords
+nltk.download('omw-1.4')
 
 app= Flask(__name__)
 
