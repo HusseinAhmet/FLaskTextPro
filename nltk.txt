@@ -42,3 +42,4 @@ ccg
 book 
 app
 omw-1.4
+averaged_perceptron_tagger
