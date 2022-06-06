@@ -9,6 +9,7 @@ from nltk.stem.porter import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 from nltk.corpus import stopwords
+
 app= Flask(__name__)
 
 
@@ -100,5 +101,6 @@ def maw():
   return "<h1>Hellooooooo</h1>"  
 def hello():
     return jsonify({'Hello, World!'})
+
 if __name__ == '__main__':
     app.run(debug=True)
