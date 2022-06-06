@@ -1,3 +1,7 @@
 stopwords
 wordnet
 punkt
+corpus
+stem
+tag
+tokenize
